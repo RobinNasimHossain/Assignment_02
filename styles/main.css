@@ -410,3 +410,46 @@ Hero
     margin-left: 0.1rem;
   }
 }
+.hero-img div {
+  position: absolute;
+  border: 1px solid red;
+  width: 193px;
+  height: 98px;
+  left: 180px;
+  top: 80px;
+  z-index: 1;
+}
+
+.hero-img div {
+  color: white;
+  text-align: center;
+
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+}
+.hero-img h2 {
+  margin-top: 1rem;
+}
+.bottom {
+  position: absolute;
+  width: 206px;
+  height: 96px;
+  left: 630px;
+  top: 400px;
+  color: white;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  z-index: 1;
+  text-align: center;
+}
+.bottom h2 {
+  margin-top: 1rem;
+}
