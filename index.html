@@ -16,49 +16,116 @@
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
-    <!-- start Header -->
-    <header class="header">
-      <div class="nav-div">
-        <h2><i>Fitness</i></h2>
-        <nav class="nav-section">
-          <ul class="nav-links">
-            <li class="color-btn"><a href="#" class="nav-link">home</a></li>
-            <li><a href="#" class="nav-link">service</a></li>
-            <li><a href="#" class="nav-link">contact</a></li>
-            <li><a href="#" class="nav-link">about</a></li>
-          </ul>
-          <div class="right">
-            <button class="hide"><i class="fas fa-bars"></i></button>
-          </div>
-        </nav>
+    <!-- navbar -->
+    <nav class="nav" id="nav">
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <h2>Fitness</h2>
+          <button class="nav-btn" id="nav-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- nav-links -->
+        <ul class="nav-links">
+          <li>
+            <a class="sp" href="index.html">home</a>
+          </li>
+          <li>
+            <a href="about.html">service</a>
+          </li>
+          <li>
+            <a href="projects.html">contact</a>
+          </li>
+          <li>
+            <a href="contact.html">about</a>
+          </li>
+        </ul>
       </div>
-
-      <!-- start banner section -->
-      <div class="main-banner">
-        <div class="banner">
+    </nav>
+    <!-- end of navbar -->
+    <!-- sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div>
+        <button class="close-btn" id="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <!-- nav-links -->
+        <ul class="sidebar-links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li>
+            <a href="projects.html">projects</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+        <!-- social icons -->
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-squarespace"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-behance"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!-- end of sidebar -->
+    <!-- header -->
+    <header class="hero">
+      <div class="section-center hero-center">
+        <article class="hero-info">
+          <div class="underline"></div>
           <h1>
             Get body in <br />
-            <span class="miama">shape</span> & stay <br />
+            <span class="font">shape</span> & stay <br />
             healthy
           </h1>
-          <p class="text-content">
-            Not everyone can wake up every day feeling energized and motivated
-            to put in the hard work that it takes to stay fit
+          <p class="text">
+            A huge selection of health and fitness content, healthy recipes and
+            transformation stories to help you get fit and stay fit!
           </p>
-          <div class="baba">
-            <button class="btn-1">Join Club Now!</button>
-            <button class="btn-2">Download App</button>
-          </div>
-        </div>
-        <!-- start banner img -->
-        <div class="img-container"></div>
-        <!--end of start banner img -->
+          <a href="contact.html" class="btn hero-btn">Join Club Now!</a>
+          <a href="contact.html" class="btn hero-btn">Download App</a>
+
+          <!-- social icons -->
+        </article>
+        <article class="hero-img">
+          <img src="./images/Images 2.png" class="hero-photo" alt="john doe" />
+        </article>
       </div>
-      <!-- end of  banner section -->
     </header>
+    <!-- end of header -->
     <!-- end of start Header -->
     <!-- start main section -->
-    <main></main>
+    <main>
+      <!-- end of  banner section -->
+    </main>
     <!-- end of start main section -->
     <!-- start footer section -->
     <footer></footer>
